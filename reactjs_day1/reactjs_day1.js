@@ -18,9 +18,9 @@ const root = document.querySelector("#root");
 // React create element
 const ulReact = React.createElement(
   "ul",
-    null, 
-  React.createElement('li',null,'Javacripts'),
-  React.createElement('li',null,'ReactJS')
+  null,
+  React.createElement("li", null, "Javacripts"),
+  React.createElement("li", null, "ReactJS")
 );
 // React-DOM
 ReactDOM.render(ulReact, root);
