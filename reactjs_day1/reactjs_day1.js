@@ -13,14 +13,14 @@
 // 4.Thêm:text,HTML
 // 5.Tạo
 // <h1 title='hello' class='heading'>Hello guys</h1>
-const root = document.querySelector("#root");
+// const root = document.querySelector("#root");
 
 // React create element
-const ulReact = React.createElement(
-  "ul",
-  null,
-  React.createElement("li", null, "Javacripts"),
-  React.createElement("li", null, "ReactJS")
-);
+// const ulReact = React.createElement(
+//   "ul",
+//   null,
+//   React.createElement("li", null, "Javacripts"),
+//   React.createElement("li", null, "ReactJS")
+// );
 // React-DOM
-ReactDOM.render(ulReact, root);
+// ReactDOM.render(ulReact, root);
